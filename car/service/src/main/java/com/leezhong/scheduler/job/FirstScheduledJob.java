@@ -2,7 +2,6 @@ package com.leezhong.scheduler.job;
 
 import com.leezhong.dao.UserInfoMapper;
 import com.leezhong.domain.UserInfo;
-import com.leezhong.scheduler.job.utils.AuthBean;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;
