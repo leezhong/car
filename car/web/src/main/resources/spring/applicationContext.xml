@@ -28,5 +28,6 @@
         </property>
     </bean>
 
-    <import resource="spring/spring-dao.xml"/>
+    <import resource="spring-dao.xml"/>
+    <import resource="spring-quartz.xml"/>
 </beans>
