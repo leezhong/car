@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.leezhong.dao.UserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.leezhong.domain.UserInfo">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="otherId" jdbcType="INTEGER" property="otherid" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="age" jdbcType="VARCHAR" property="age" />
+    <result column="money" jdbcType="VARCHAR" property="money" />
+    <result column="mobi" jdbcType="VARCHAR" property="mobi" />
+    <result column="days" jdbcType="VARCHAR" property="days" />
+    <result column="interest" jdbcType="VARCHAR" property="interest" />
+    <result column="addr" jdbcType="VARCHAR" property="addr" />
+    <result column="province_no" jdbcType="VARCHAR" property="provinceNo" />
+    <result column="zmxy" jdbcType="VARCHAR" property="zmxy" />
+    <result column="wechat" jdbcType="VARCHAR" property="wechat" />
+    <result column="qq" jdbcType="VARCHAR" property="qq" />
+    <result column="repay_type" jdbcType="VARCHAR" property="repayType" />
+    <result column="creaete_time" jdbcType="TIMESTAMP" property="creaeteTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, otherId, name, age, money, mobi, days, interest, addr, province_no, zmxy, wechat, 
+    qq, repay_type, creaete_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_info
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from user_info
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.leezhong.domain.UserInfo">
+    insert into user_info (id, otherId, name, 
+      age, money, mobi, days, 
+      interest, addr, province_no, 
+      zmxy, wechat, qq, repay_type, 
+      creaete_time)
+    values (#{id,jdbcType=INTEGER}, #{otherid,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, 
+      #{age,jdbcType=VARCHAR}, #{money,jdbcType=VARCHAR}, #{mobi,jdbcType=VARCHAR}, #{days,jdbcType=VARCHAR}, 
+      #{interest,jdbcType=VARCHAR}, #{addr,jdbcType=VARCHAR}, #{provinceNo,jdbcType=VARCHAR}, 
+      #{zmxy,jdbcType=VARCHAR}, #{wechat,jdbcType=VARCHAR}, #{qq,jdbcType=VARCHAR}, #{repayType,jdbcType=VARCHAR}, 
+      #{creaeteTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.leezhong.domain.UserInfo">
+    insert into user_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="otherid != null">
+        otherId,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="money != null">
+        money,
+      </if>
+      <if test="mobi != null">
+        mobi,
+      </if>
+      <if test="days != null">
+        days,
+      </if>
+      <if test="interest != null">
+        interest,
+      </if>
+      <if test="addr != null">
+        addr,
+      </if>
+      <if test="provinceNo != null">
+        province_no,
+      </if>
+      <if test="zmxy != null">
+        zmxy,
+      </if>
+      <if test="wechat != null">
+        wechat,
+      </if>
+      <if test="qq != null">
+        qq,
+      </if>
+      <if test="repayType != null">
+        repay_type,
+      </if>
+      <if test="creaeteTime != null">
+        creaete_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="otherid != null">
+        #{otherid,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=VARCHAR},
+      </if>
+      <if test="money != null">
+        #{money,jdbcType=VARCHAR},
+      </if>
+      <if test="mobi != null">
+        #{mobi,jdbcType=VARCHAR},
+      </if>
+      <if test="days != null">
+        #{days,jdbcType=VARCHAR},
+      </if>
+      <if test="interest != null">
+        #{interest,jdbcType=VARCHAR},
+      </if>
+      <if test="addr != null">
+        #{addr,jdbcType=VARCHAR},
+      </if>
+      <if test="provinceNo != null">
+        #{provinceNo,jdbcType=VARCHAR},
+      </if>
+      <if test="zmxy != null">
+        #{zmxy,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null">
+        #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="qq != null">
+        #{qq,jdbcType=VARCHAR},
+      </if>
+      <if test="repayType != null">
+        #{repayType,jdbcType=VARCHAR},
+      </if>
+      <if test="creaeteTime != null">
+        #{creaeteTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.leezhong.domain.UserInfo">
+    update user_info
+    <set>
+      <if test="otherid != null">
+        otherId = #{otherid,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=VARCHAR},
+      </if>
+      <if test="money != null">
+        money = #{money,jdbcType=VARCHAR},
+      </if>
+      <if test="mobi != null">
+        mobi = #{mobi,jdbcType=VARCHAR},
+      </if>
+      <if test="days != null">
+        days = #{days,jdbcType=VARCHAR},
+      </if>
+      <if test="interest != null">
+        interest = #{interest,jdbcType=VARCHAR},
+      </if>
+      <if test="addr != null">
+        addr = #{addr,jdbcType=VARCHAR},
+      </if>
+      <if test="provinceNo != null">
+        province_no = #{provinceNo,jdbcType=VARCHAR},
+      </if>
+      <if test="zmxy != null">
+        zmxy = #{zmxy,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null">
+        wechat = #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="qq != null">
+        qq = #{qq,jdbcType=VARCHAR},
+      </if>
+      <if test="repayType != null">
+        repay_type = #{repayType,jdbcType=VARCHAR},
+      </if>
+      <if test="creaeteTime != null">
+        creaete_time = #{creaeteTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.leezhong.domain.UserInfo">
+    update user_info
+    set otherId = #{otherid,jdbcType=INTEGER},
+      name = #{name,jdbcType=VARCHAR},
+      age = #{age,jdbcType=VARCHAR},
+      money = #{money,jdbcType=VARCHAR},
+      mobi = #{mobi,jdbcType=VARCHAR},
+      days = #{days,jdbcType=VARCHAR},
+      interest = #{interest,jdbcType=VARCHAR},
+      addr = #{addr,jdbcType=VARCHAR},
+      province_no = #{provinceNo,jdbcType=VARCHAR},
+      zmxy = #{zmxy,jdbcType=VARCHAR},
+      wechat = #{wechat,jdbcType=VARCHAR},
+      qq = #{qq,jdbcType=VARCHAR},
+      repay_type = #{repayType,jdbcType=VARCHAR},
+      creaete_time = #{creaeteTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectAll" resultType="UserInfo">
+    SELECT
+     <include refid="Base_Column_List"/>
+    FROM user_info
+  </select>
+
+  <select id="selectByAddr" resultType="UserInfo" parameterType="string">
+    SELECT
+    <include refid="Base_Column_List"/>
+    from user_info
+    WHERE
+    addr like concat('%','${_parameter}','%')
+  </select>
+
+  <select id="selectByAge" resultType="UserInfo" parameterType="integer">
+    SELECT
+    <include refid="Base_Column_List"/>
+    from user_info
+    WHERE
+    age =#{age}
+  </select>
+
+  <select id="findByName" parameterType="string" resultType="UserInfo">
+    SELECT
+    <include refid="Base_Column_List"/>
+    from user_info
+    WHERE
+    name like concat('%','${name}','%')
+  </select>
+</mapper>
