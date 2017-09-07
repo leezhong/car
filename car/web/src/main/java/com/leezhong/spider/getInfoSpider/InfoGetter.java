@@ -22,9 +22,9 @@ import java.util.concurrent.Executors;
 @ContextConfiguration("classpath:applicationContext.xml")
 public class InfoGetter {
 
-    private static String key = "dslkfh88D663";
+    private static String key = "";
 
-    private String url = "http://www.yxinbao.com/otherLoan/therLoanData.jsp";
+    private String url = "";
 
     private String date = "2017-09-05";
 
