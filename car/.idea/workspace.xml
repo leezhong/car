@@ -7,212 +7,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57afd62-c9b3-4542-9a30-171d3b3b2345" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientUtilsWithPool$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientUtilsWithPool$GetRunnable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientUtilsWithPool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientWithProxy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/JacksonUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/MD5Util.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/StreamHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/classes/com/leezhong/dao/TestMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/classes/com/leezhong/dao/UserInfoMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/test-classes/leezhong/AppTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/test-classes/leezhong/UserInfoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/target/classes/com/leezhong/domain/Test.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/target/classes/com/leezhong/domain/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/target/classes/com/leezhong/domain/UserInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/target/classes/com/leezhong/dto/JsonRes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/TestService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/UserInfoService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/impl/TestServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/impl/UserInfoServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/com/leezhong/conterller/TestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/com/leezhong/spider/getInfoSpider/GetRunnable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/com/leezhong/spider/getInfoSpider/InfoGetter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/APITest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/HttpClientWithProxy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/TestT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/test-classes/com/mappertest/UserInfoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/com/leezhong/conterller/TestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/com/leezhong/spider/getInfoSpider/GetRunnable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/com/leezhong/spider/getInfoSpider/InfoGetter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/common-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-codec-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-dbcp-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-httpclient-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-pool-1.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/druid-1.0.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/httpclient-4.5.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/httpcore-4.4.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-annotations-2.4.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-core-2.4.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-core-asl-1.9.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-databind-2.4.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jsp-api-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/junit-4.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/log4j-1.2.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/mybatis-3.2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/mysql-connector-java-5.1.29.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/pagehelper-3.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/service-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/slf4j-api-1.6.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-aop-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-beans-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-context-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-context-support-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-expression-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-jdbc-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-orm-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-tx-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-web-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-webmvc-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/car.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/HttpClientUtilsWithPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/HttpClientWithProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/JacksonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/MD5Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/StreamHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/dao.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/leezhong/dao/TestMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/java/com/leezhong/dao/UserInfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/resources/config/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/TestMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/main/resources/mybatis-generator/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/test/java/leezhong/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/src/test/java/leezhong/UserInfoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/classes/config/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/classes/mapper/TestMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/classes/mapper/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/classes/mybatis-generator/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/domain.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/leezhong/domain/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/leezhong/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/leezhong/domain/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/leezhong/dto/JsonRes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/leezhong/service/TestService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/leezhong/service/UserInfoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/leezhong/service/impl/TestServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/com/leezhong/service/impl/UserInfoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/leezhong/conterller/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/GetRunnable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/config/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/config/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/quartz.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/springmvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/test.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/html/otherLoanData.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/static/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/test/java/com/APITest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/test/java/com/HttpClientWithProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/test/java/com/TestT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/test/java/com/TimeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/test/java/com/mappertest/UserInfoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/config/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/config/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/quartz.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/classes/springmvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/config/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/config/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/quartz.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/springmvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/jsp/test.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/html/otherLoanData.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/target/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientUtilsWithPool$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientUtilsWithPool$GetRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientUtilsWithPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/HttpClientWithProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/JacksonUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/MD5Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/classes/com/leezhong/utils/StreamHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/com/leezhong/dao/TestMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/com/leezhong/dao/UserInfoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/config/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/mapper/TestMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/mapper/UserInfoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/mybatis-generator/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/test-classes/leezhong/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/test-classes/leezhong/UserInfoTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/domain/target/classes/com/leezhong/domain/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/domain/target/classes/com/leezhong/domain/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/domain/target/classes/com/leezhong/domain/UserInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/domain/target/classes/com/leezhong/dto/JsonRes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/TestService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/UserInfoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/impl/TestServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/classes/com/leezhong/service/impl/UserInfoServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/com/leezhong/conterller/TestController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/com/leezhong/spider/getInfoSpider/GetRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/com/leezhong/spider/getInfoSpider/InfoGetter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/config/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/config/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/quartz.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/spring/spring-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/classes/springmvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/APITest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/HttpClientWithProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/TestT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/TimeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/test-classes/com/mappertest/UserInfoTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/com/leezhong/conterller/TestController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/com/leezhong/spider/getInfoSpider/GetRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/com/leezhong/spider/getInfoSpider/InfoGetter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/config/config.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/config/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/quartz.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/spring/spring-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/springmvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/jsp/test.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-codec-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-logging-1.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/druid-1.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/httpclient-4.5.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/httpcore-4.4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-core-2.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-databind-2.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/jsp-api-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/log4j-1.2.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/mybatis-3.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/mysql-connector-java-5.1.29.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/pagehelper-3.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/slf4j-api-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-aop-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-beans-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-context-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-context-support-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-expression-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-jdbc-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-orm-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-tx-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-web-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/spring-webmvc-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/html/otherLoanData.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/target/web/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -241,21 +144,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <file leaf-file-name="GetRunnable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/GetRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="24">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetRunnable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/GetRunnable.java">
+      <file leaf-file-name="InfoGetter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="189">
+              <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -319,7 +222,6 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/css/a.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/html/AAA.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/css/AAA.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/html/otherLoanData.jsp" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/MD5Utils.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/MD5Util.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/leezhong/utils/JacksonUtil.java" />
@@ -338,7 +240,6 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/timmerSpider/GetRunnable.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/timmerSpider/GetTimmer.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/timmerSpider/InfoGetter.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/leezhong/service/UserInfoService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/leezhong/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/com/APITest.java" />
@@ -359,6 +260,8 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/test.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/html/otherLoanData.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java" />
       </list>
     </option>
   </component>
@@ -389,6 +292,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="car" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="car" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="car" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -404,12 +321,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.quartz-scheduler:quartz:2.2.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -459,6 +370,56 @@
             <path>
               <item name="car" type="b2602c69:ProjectViewProjectNode" />
               <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leezhong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -480,7 +441,7 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="car" type="b2602c69:ProjectViewProjectNode" />
@@ -488,8 +449,41 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leezhong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leezhong" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leezhong" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="getInfoSpider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -881,8 +875,37 @@
       <workItem from="1504668510961" duration="19081000" />
       <workItem from="1504749569953" duration="3709000" />
       <workItem from="1504756385266" duration="1276000" />
-      <workItem from="1504759538463" duration="48000" />
+      <workItem from="1504759538463" duration="2292000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1504759642815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504759642815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <created>1504761260591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504761260591</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new">
+      <created>1504761509103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504761509103</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new">
+      <created>1504761566253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504761566253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -918,7 +941,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116491000" />
+    <option name="totallyTimeSpent" value="118735000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -933,28 +956,29 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38152173" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21162046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35939196" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38260868" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21162046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38219327" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38152173" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35939196" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -963,7 +987,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1005,6 +1028,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1055,13 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="264" column="53" lean-forward="true" selection-start-line="264" selection-start-column="53" selection-end-line="264" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/html/otherLoanData.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1237,14 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/leezhong/timer.java" />
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/quartz.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1303,6 +1315,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +1351,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state relative-caret-position="0">
           <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding />
         </state>
@@ -1346,8 +1359,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/GetRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="24">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/html/otherLoanData.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/leezhong/spider/getInfoSpider/InfoGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
           <folding />
         </state>
       </provider>
