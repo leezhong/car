@@ -7,4 +7,10 @@ public interface UserInfoService {
 
     void saveJsonMap2UserInfo(List<Map<String,String>> jsonMaps);
 
+    /**
+     *
+     * @param data yyyy-MM-dd
+     */
+    void getUserInfoBySpider(String data);
+
 }

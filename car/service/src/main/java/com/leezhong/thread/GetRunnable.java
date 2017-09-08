@@ -1,4 +1,4 @@
-package com.leezhong.spider.getInfoSpider;
+package com.leezhong.thread;
 
 import com.leezhong.service.UserInfoService;
 import com.leezhong.utils.HttpClientUtilsWithPool;
