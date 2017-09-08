@@ -22,7 +22,6 @@ public class GetRunnable implements Runnable {
     public void run() {
         try {
             String res = HttpClientUtilsWithPool.get(url);
-            System.out.println("--Thread--"+Thread.currentThread().getName()+"------");
             Map<String,Object> map = JacksonUtil.JsonToMap(res);
             List<Map<String,String>> data = (List<Map<String,String>>)map.get("data");
             userInfoService.saveJsonMap2UserInfo(data);
