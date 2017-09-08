@@ -64,6 +64,13 @@ public class UserInfoServiceImpl implements UserInfoService {
     }
 
     public void getUserInfoBySpider(String date) {
+
+        if(date==null||"".equals(date.trim())){
+            return;
+        }
+        if(!date.contains("-")){
+            return;
+        }
         String key = CommonData.getUserInfoKey;
         String url = CommonData.getUserInfoUrl;
         Integer pageSize = 20;
