@@ -79,6 +79,9 @@ public class HttpClientUtilsWithPool {
          * @create 2015年12月18日
          */
         public static CloseableHttpClient getHttpClient(String url) {
+            if(url==null||"".equals(url.trim())){
+                return null;
+            }
             String hostname = url.split("/")[2];
             int port = 80;
             if (hostname.contains(":")) {
