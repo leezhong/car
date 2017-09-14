@@ -11,6 +11,7 @@ import com.leezhong.utils.MD5Util;
 import org.apache.http.client.methods.HttpGet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.IOException;
@@ -25,7 +26,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Service
-@Transactional
+@Transactional(propagation = Propagation.REQUIRED)
 public class UserInfoServiceImpl implements UserInfoService {
 
     @Autowired

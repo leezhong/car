@@ -38,6 +38,7 @@
           p:sqlSessionFactoryBeanName="sqlSessionFactory"
     />
 
+    <!--事务管理器 与SqlSessionFactoryBean引用的数据源一致-->
     <bean id="transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
           p:dataSource-ref="dataSource"/>
