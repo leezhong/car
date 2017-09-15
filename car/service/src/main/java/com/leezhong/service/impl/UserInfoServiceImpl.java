@@ -26,7 +26,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Service
-@Transactional(propagation = Propagation.REQUIRED)
+@Transactional(propagation = Propagation.REQUIRED,rollbackFor = {Exception.class})
 public class UserInfoServiceImpl implements UserInfoService {
 
     @Autowired
