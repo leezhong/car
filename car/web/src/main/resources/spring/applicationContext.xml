@@ -30,4 +30,5 @@
 
     <import resource="spring-dao.xml"/>
     <import resource="spring-quartz.xml"/>
+    <import resource="spring-shiro.xml"/>
 </beans>
