@@ -36,7 +36,7 @@
 						 targetProject="src/main/resources/">
 			<property name="enableSubPackages" value="false" />
 		</sqlMapGenerator>
-		<!--生成Dao文件 可以配置 type="XMLMAPPER"生成xml的dao实现 context id="DB2Tables" 修改targetRuntime="MyBatis3" -->
+		<!--生成Dao接口文件 可以配置 type="XMLMAPPER"生成xml的dao实现 context id="DB2Tables" 修改targetRuntime="MyBatis3" -->
 		<javaClientGenerator type="XMLMAPPER"
 							 targetPackage="com.leezhong.dao" targetProject="src/main/java">
 			<property name="enableSubPackages" value="false" />
