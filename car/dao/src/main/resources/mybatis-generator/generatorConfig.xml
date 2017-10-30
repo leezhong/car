@@ -44,16 +44,19 @@
 
 		<!--对应数据库表 mysql可以加入主键自增 字段命名 忽略某字段等 -->
 
-		<table tableName="resource" domainObjectName="Resource"
+		<!--<table tableName="resource" domainObjectName="Resource"
 			   enableCountByExample="false" enableDeleteByExample="fasle"
 			   enableSelectByExample="false" enableUpdateByExample="false"
-			   selectByExampleQueryId="fasle" />
+			   selectByExampleQueryId="fasle" />-->
 
 		<!--<table tableName="test" domainObjectName="Test"-->
 			   <!--enableCountByExample="false" enableDeleteByExample="fasle"-->
 			   <!--enableSelectByExample="false" enableUpdateByExample="false"-->
 			   <!--selectByExampleQueryId="fasle" />-->
-
+		<table tableName="user" domainObjectName="User"
+			   enableCountByExample="false" enableDeleteByExample="fasle"
+			   enableSelectByExample="false" enableUpdateByExample="false"
+			   selectByExampleQueryId="fasle" />
 
 	</context>
 </generatorConfiguration>

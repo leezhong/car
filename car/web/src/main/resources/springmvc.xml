@@ -21,15 +21,13 @@
     </mvc:annotation-driven>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="prefix" value="/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
 
     <!--资源映射-->
-    <mvc:resources location="/static/" mapping="/static/**"/>
-    <mvc:resources location="/html/" mapping="/html/**"/>
-
-
+    <!--<mvc:resources location="/static/" mapping="/static/**"/>-->
+    <!--<mvc:resources location="/html/" mapping="/html/**"/>-->
 
 </beans>

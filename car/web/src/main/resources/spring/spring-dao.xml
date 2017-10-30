@@ -23,7 +23,6 @@
         <property name="removeAbandonedTimeout" value="${removeAbandoned_timeout}"/>
         <property name="connectionProperties" value="clientEncoding=UTF-8"/>
         <property name="filters" value="stat,wall"/>
-
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"
