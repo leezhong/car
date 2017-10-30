@@ -8,7 +8,16 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!--自定义realm-->
-    <bean id="userRealm" class="com.leezhong.shiro.realm.UserRealm"/>
+    <bean id="userRealm" class="com.leezhong.shiro.realm.UserRealm">
+        <property name="credentialsMatcher" ref="userCredentialsMatcher" />
+    </bean>
+
+    <bean id="userCredentialsMatcher" class="com.leezhong.shiro.UserCredentialsMatcher">
+        <property name="hashAlgorithmName" value="md5"/>
+        <property name="hashIterations" value="2"/>
+        <!--当为true进行16进制的decode,如果设置为false，则要进行Base64解码-->
+        <property name="storedCredentialsHexEncoded" value="true"/>
+    </bean>
 
     <!--扫描shiro相关-->
     <context:component-scan base-package="com.leezhong.shiro"/>
