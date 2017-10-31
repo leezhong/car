@@ -6,7 +6,7 @@
 </head>
 <body>
     <shiro:user>
-        欢迎,<shiro:principal/> &nbsp;&nbsp;<a href="/logout">点击退出</a>
+        欢迎,<shiro:principal/> &nbsp;&nbsp;<a href="/logout">点击退出</a><br/>
     </shiro:user>
 
     <shiro:guest>
