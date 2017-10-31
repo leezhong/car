@@ -11,7 +11,7 @@
     <title>登录</title>
 </head>
 <body>
-    <form  action="/login" method="post">
+    <form action="/login/login" method="post">
         登录<br/>
        用户名: <input type="text" name="username"/><br/>
        密码: <input type="text" name="password"/><br/>

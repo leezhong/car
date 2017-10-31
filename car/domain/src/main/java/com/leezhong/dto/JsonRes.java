@@ -12,6 +12,8 @@ public class JsonRes {
         return resCode;
     }
 
+    public JsonRes() {}
+
     public JsonRes(int resCode, String resString) {
         this.resCode = resCode;
         this.resString = resString;

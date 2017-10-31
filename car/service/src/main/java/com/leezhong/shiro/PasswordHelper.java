@@ -30,14 +30,14 @@ public class PasswordHelper {
     }
 
     public void encryptPassword(User user) {
-
-        user.setSalt(randomNumberGenerator.nextBytes().toHex());
+        randomNumberGenerator.nextBytes().toHex();
+        user.setSalt("f58711612143a7ada2676e515f3dedd0");
 
         String newPassword = new SimpleHash(
                 algorithmName,
                 user.getPassword(),
                 ByteSource.Util.bytes(user.getSalt()),
-                hashIterations).toHex();
+                hashIterations).toBase64();
 
         user.setPassword(newPassword);
     }

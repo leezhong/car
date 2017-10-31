@@ -16,7 +16,7 @@
         <property name="hashAlgorithmName" value="md5"/>
         <property name="hashIterations" value="2"/>
         <!--当为true进行16进制的decode,如果设置为false，则要进行Base64解码-->
-        <property name="storedCredentialsHexEncoded" value="true"/>
+        <property name="storedCredentialsHexEncoded" value="false"/>
     </bean>
 
     <!--扫描shiro相关-->
@@ -24,7 +24,7 @@
     <bean id="chainDefinitionSectionMetaSource" class="com.leezhong.shiro.ChainDefinitionSectionMetaSource">
         <property name="filterChainDefinitions" >
             <value>
-                /login = anon
+                /login/** = anon
                 /logout = logout
                 /static/** = anon
                 /index.jsp=anon
