@@ -13,4 +13,6 @@ public interface UserService {
     public List<String> getUserStringPermissions(int userId);
 
     public User getUserByUsername(String username);
+
+    public int createUser(User user);
 }

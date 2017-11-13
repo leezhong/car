@@ -13,9 +13,9 @@ import org.apache.shiro.util.ByteSource;
  */
 public class PasswordHelper {
 
-    private RandomNumberGenerator randomNumberGenerator = new SecureRandomNumberGenerator();
-    private String algorithmName = "md5";
-    private int hashIterations = 2;
+    private static RandomNumberGenerator randomNumberGenerator = new SecureRandomNumberGenerator();
+    private static String algorithmName = "md5";
+    private static int hashIterations = 2;
 
     public void setRandomNumberGenerator(RandomNumberGenerator randomNumberGenerator) {
         this.randomNumberGenerator = randomNumberGenerator;
@@ -29,10 +29,9 @@ public class PasswordHelper {
         this.hashIterations = hashIterations;
     }
 
-    public void encryptPassword(User user) {
-        randomNumberGenerator.nextBytes().toHex();
-        user.setSalt("f58711612143a7ada2676e515f3dedd0");
+    public static void encryptPassword(User user) {
 
+        user.setSalt(randomNumberGenerator.nextBytes().toHex());
         String newPassword = new SimpleHash(
                 algorithmName,
                 user.getPassword(),

@@ -25,6 +25,7 @@
         <property name="filterChainDefinitions" >
             <value>
                 /login/** = anon
+                /user/login/** = anon
                 /logout = logout
                 /static/** = anon
                 /index.jsp=anon
@@ -37,9 +38,9 @@
         <!-- shiro 的核心安全接口 -->
         <property name="securityManager" ref="securityManager" />
         <!-- 要求登录时的链接 -->
-        <property name="loginUrl" value="/login/login.jsp" />
+        <property name="loginUrl" value="/jsp/login.jsp" />
         <!-- 登陆成功后要跳转的连接 -->
-        <property name="successUrl" value="/index.jsp" />
+        <property name="successUrl" value="/jsp/index.jsp" />
         <!-- 未授权时要跳转的连接 -->
         <property name="unauthorizedUrl" value="/login/unauthorized.jsp" />
         <!-- shiro 连接约束配置 -->
